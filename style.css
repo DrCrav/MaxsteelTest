@@ -1,0 +1,159 @@
+/* Geral */
+
+* {
+    transition: 0.3s;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scrollbar-width:  thin;
+    scrollbar-color: rgba(169, 255, 140, 0.788) rgba(176, 255, 172, 0.788);
+    background-color: rgb(26, 143, 42);
+}
+
+    /* Geral - Texto */
+
+h4 {
+    text-align: start;
+    color: rgb(237, 255, 202);
+}
+    
+h5 {
+    text-align: start;
+    color: rgb(237, 255, 202);
+}
+
+h2 {
+    color: rgb(237, 255, 202);
+}
+
+h1 {
+    color: rgb(237, 255, 202);
+    padding-top: 2vw;
+}
+
+/* Cabeçalho */
+
+header {
+    height: 15vh;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(3, 200, 42, 0.788);
+    padding-inline: 2vw;
+    margin-bottom: 1vw;
+}
+
+header img {
+    padding-top: 1.4vw;
+    height: 4vw;
+}
+
+header ul {
+    padding: 1.2vh;
+    display: flex;
+    max-height: 3vw;
+}
+
+header li {
+    list-style-type: none;
+}
+
+header button {
+    border: solid rgba(30, 148, 40, 0.788);
+    padding: 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: 100vw;
+}
+
+button:hover {
+    background-color: rgba(103, 146, 111, 0.788);
+    color: rgb(207, 253, 222);
+}
+
+button {
+    background-color: rgba(150, 212, 148, 0.788);
+    border-right: solid rgba(148, 212, 163, 0.788);
+}
+
+/* Página Principal */
+
+nav {
+    background-color: rgba(0, 166, 14, 0.788);
+    margin-inline: 10vw;
+    border-radius: 20px;
+    padding: 1vw 1vh;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main ul {
+    display: block;
+    height: 650px;
+    list-style-type: none;
+    max-width: 200px;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: calc(1em +1vw);
+    padding-right: 60px;
+    padding-left: 30px;
+}
+
+main ul img {
+    max-width: 12vw;
+    border-radius: 10px;
+}
+
+section {
+    background-color: rgba(48, 200, 51, 0.788);
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+section div img {
+    height: 35vw;
+    width: 12vw;
+    filter: hue-rotate(-120deg);
+}
+
+article {
+    max-width: 29vw;
+    max-height: 29vw;
+    text-align: center;
+}
+
+article img {
+    max-width: 29vw;
+    max-height: 29vw;
+    border-radius: 20px;
+}
+
+h3 {
+    text-align: start;
+    color: rgb(237, 255, 202);
+}
+
+/* Rodapé do Site */
+
+footer {
+    margin-top: 60px;
+    padding-bottom: 40px;
+    background-color: rgba(2, 93, 17, 0.788);
+}
+
+footer h1 {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
